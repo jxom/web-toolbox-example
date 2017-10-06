@@ -1,5 +1,5 @@
 {
-  "name": "front-end-toolbox-example",
+  "name": "web-toolbox-example",
 	"devDependencies": {
 		"lerna": "^2.3.1"
 	}
