@@ -1,11 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '@jmoxey/styleguide/index.css';
 
-export const Button = () => (
-  <button>
-    test
-  </button>
-);
+class Button extends React.Component {
+	render() {
+		return (
+			<button>Cool beans</button>
+		)
+	}
+}
 
 Button.propTypes = {
 

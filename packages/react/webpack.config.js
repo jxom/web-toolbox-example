@@ -16,6 +16,7 @@ components.forEach(component => {
 });
 
 module.exports = {
+	watch: process.env.WEBPACK_ENV === 'dev',
   entry: entries,
   output: {
     filename: '[name].js',
