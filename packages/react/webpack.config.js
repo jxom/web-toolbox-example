@@ -31,6 +31,9 @@ module.exports = {
       }
       if (/\.(png|jpg|jpeg|ico|gif|svg|woff|woff2|ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/.test(request)) {
         return callback(null, false);
+			}
+			if (/\.scss$/.test(request)) {
+        return callback(null, false);
       }
       // Treat all other files as external
       return callback(null, true);
@@ -51,7 +54,7 @@ module.exports = {
       {
         test: /\.(png|jpg|jpeg|ico|gif|svg|woff|woff2|ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
         loader: 'url-loader'
-      }
+			}
     ]
   },
   resolve: {
