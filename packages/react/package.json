@@ -1,6 +1,6 @@
 {
   "name": "@jmoxey/react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "webpack": "^3.6.0"
   },
   "dependencies": {
-    "@jmoxey/styleguide": "^0.1.0",
+    "@jmoxey/styleguide": "^0.1.1",
     "prop-types": "^15.6.0"
   },
   "peerDependencies": {
